@@ -114,6 +114,15 @@ h1, h2 {
     font-weight: 600;
 }
 
+@media (min-width:60em) {
+    :root {--txt-size-h1: 2.25rem;}
+    
+    main, footer {
+        width: 90%;
+        max-width: 69.5rem;
+    }
+}
+
 /* ============================================
     SECTION
 =============================================== */
@@ -152,7 +161,7 @@ h1, h2 {
     padding: 1.75rem;
     background-color: #ffffff;
     border-radius: .4rem;
-    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: .4rem .4rem .8rem rgba(0, 0, 0, 0.1);
 }
 
 .card::before {
@@ -178,6 +187,60 @@ h1, h2 {
     width: 3.5rem;
     margin-left: auto;
     margin-top: 2rem;
+}
+
+@media (min-width: 60em) {
+
+    /* Title */
+
+    .section-title,
+    .section-description {
+        width: 32rem;
+    }
+
+    .section-title {
+        margin: 4rem auto 1.125rem;
+        line-height: 1.4;
+    }
+
+    .section-description {
+        margin: 0 auto;
+    }
+
+    /* Cards */
+
+    .cards-container {
+        margin-top: 4rem;
+        grid-template-areas: 
+            '.  c2  .'
+            'c1 c2 c4'
+            'c1 c3 c4'
+            '.  c3  .';
+    }
+
+    .card {
+        padding: 2rem;
+    }
+
+    .card1 { grid-area: c1; }
+    .card2 { grid-area: c2; }
+    .card3 { grid-area: c3; }
+    .card4 { grid-area: c4; }
+
+    .card h2 {
+        margin-top: .25rem;
+    }
+
+    .card p {
+        margin-top: .75rem;
+        line-height: 1.8;
+    }
+    
+    .card img {
+        width: 4rem;
+        margin-top: 2.5rem;
+    }
+
 }
 
 /* ============================================
