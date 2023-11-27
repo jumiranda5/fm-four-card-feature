@@ -260,3 +260,9 @@ footer {
 .attribution a {
     color: var(--clr-blue);
 }
+
+@media (min-width: 60em) {
+    footer {
+        margin-top: 2rem;
+    }
+}
