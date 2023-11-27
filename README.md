@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-html-and-css-QIhLMM0Br-)
 - Live Site URL: [Github Pages](https://jumiranda5.github.io/fm-four-card-feature/)
 
 
